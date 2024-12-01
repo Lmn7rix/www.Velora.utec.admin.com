@@ -1,0 +1,226 @@
+<html>
+ <head>
+  <title>
+    Velora
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="icon" href="foto/file.png"/>
+  <link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+    });
+  });
+</script>
+ </head>
+
+ <body class="font-roboto">
+  <div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="https://images.pexels.com/photos/8945044/pexels-photo-8945044.jpeg?auto=compress&cs=tinysrgb&w=2000" alt="">
+				<section class="flex-caption">
+					
+				</section>
+			</li>
+			<li>
+				<img src="https://images.pexels.com/photos/5560083/pexels-photo-5560083.jpeg?auto=compress&cs=tinysrgb&w=2000" alt="">
+				<section class="flex-caption">
+					
+				</section>
+			</li>
+			<li>
+				<img height="100px" width="300px" src="https://images.pexels.com/photos/5868130/pexels-photo-5868130.jpeg?auto=compress&cs=tinysrgb&w=2000" alt="">
+				<section class="flex-caption">
+					
+				</section>
+			</li>
+		</ul>
+	</div>
+ 
+  <header class="flex items-center justify-between p-4">
+   <img alt="Velora logo" class="h-8" height="50" src="foto/file.png" width="50"/>
+   <nav class="flex space-x-4">
+    
+    <a class="text-gray-800" href="index.html" method="POST">
+     Inicio
+    </a>
+    <a class="text-gray-800" href="man.html">
+     Hombre
+    </a>
+    <a class="text-gray-800" href="woman.html">
+     Mujer
+    </a>
+    <a class="text-gray-800" href="children.html">
+     Niños
+    </a>
+    <a class="text-red-600" href="testVista.html">
+     Video Game
+     <span class="text-orange-500">
+      🔥
+     </span>
+    </a>
+     <a class="text-gray-800" href="quines_somo.html">
+      ¿Quienes somos?
+     </a>
+    
+   </nav>
+   <div class="flex items-center space-x-4">
+    <div class="relative">
+     <input class="bg-gray-100 rounded-full px-4 py-2" placeholder="Buscar" type="text"/>
+     <i class="fas fa-search absolute right-3 top-2 text-gray-500">
+     </i>
+    </div>
+    <i class="fas fa-shopping-bag text-gray-800">
+    </i>
+   </div>
+  </header>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("abajo",window.scrollY>0)
+    })
+  </script>
+  
+  <main class="p-8">
+    
+    <br>
+   <h1 class="text-2xl font-bold mb-6">
+    Prepárate para la navidad
+   </h1>
+   <div class="grid grid-cols-3 gap-6">
+    <div class="bg-gray-100 p-4 rounded-lg">
+     <img alt="Hombre" class="w-full mb-4" src="foto/hombre.jpg"/>
+     <h2 class="text-orange-600 font-bold">
+      Lo más nuevo
+     </h2>
+     <p class="text-gray-800">
+      Coleccion invierno 
+     </p>
+     <p class="text-gray-600">
+      Abrigos acondicionado para el invierno para hombre
+     </p>
+     <p class="text-gray-600">
+      Varios colores
+     </p>
+     <p class="text-gray-800 font-bold">
+      desde $29.99
+     </p>
+    </div>
+    <div class="bg-gray-100 p-4 rounded-lg">
+     <img alt="Mujer" class="w-full mb-4" src="foto/mujer.jpg"/>
+     <p class="text-gray-800">
+      Ropa casual 
+     </p>
+     <p class="text-gray-600">
+      Atuendos completos para mujer
+     </p>
+     <p class="text-gray-600">
+      Diferentes colores
+     </p>
+     <p class="text-gray-800 font-bold">
+      desde $30.00
+     </p>
+    </div>
+    <div class="bg-gray-100 p-4 rounded-lg">
+     <img alt="Bebe" class="w-full mb-4" src="foto/bebe.jpg"/>
+     <h2 class="text-orange-600 font-bold">
+      Lo más nuevo
+     </h2>
+     <p class="text-gray-800">
+      Trajes para bebe
+     </p>
+     <p class="text-gray-600">
+      Ovelores para bebe
+     </p>
+     <p class="text-gray-600">
+      Echos con algodon
+     </p>
+     <p class="text-gray-800 font-bold">
+      desde $20.00
+     </p>
+    </div>
+   </div>
+   <br>
+   <br>
+   <div class="grid grid-cols-3 gap-6">
+    <div class="bg-gray-100 p-4 rounded-lg">
+     <img alt="chico" class="w-full mb-4" src="foto/chico.jpg"/>
+     <p class="text-gray-800">
+      Coleccion primavera 
+     </p>
+     <p class="text-gray-600">
+      Camisas, pantalones de primavera para joven
+     </p>
+     <p class="text-gray-600">
+      Varios estilos
+     </p>
+     <p class="text-gray-800 font-bold">
+      desde $29.99
+     </p>
+    </div>
+    <div class="bg-gray-100 p-4 rounded-lg">
+     <img alt="two-girls" class="w-full mb-4" src="foto/two-girls.jpg"/>
+     <p class="text-gray-800">
+      Ropa casual 
+     </p>
+     <p class="text-gray-600">
+      Atuendos completos para niña adolecente 
+     </p>
+     <p class="text-gray-600">
+      Moda urbana
+     </p>
+     <p class="text-gray-800 font-bold">
+      desde $30.00
+     </p>
+    </div>
+    <div class="bg-gray-100 p-4 rounded-lg">
+     <img alt="couple" class="w-full mb-4" src="foto/couple.jpg"/>
+     <h2 class="text-orange-600 font-bold">
+      Lo más nuevo
+     </h2>
+     <p class="text-gray-800">
+      Trajes para pareja
+     </p>
+     <p class="text-gray-600">
+      Ropa Casual y deportiva
+     </p>
+     <p class="text-gray-600">
+      Para dos
+     </p>
+     <p class="text-gray-800 font-bold">
+      desde $20.00
+     </p>
+    </div>
+   </div>
+
+  </main>
+
+  <div class="bg-black text-white">
+   <div class="flex justify-center items-center h-screen flex-col">
+     <div class="flex space-x-8 mb-4">
+      <img alt="Equilibrium logo" class="h-12" height="50" src="https://storage.googleapis.com/a1aa/image/c7pFfbd2adyoVCxDo5dfT4wfYz4ysFpzTHRn70t1xdG7e3WPB.jpg" width="50"/>
+      <img alt="GG logo" class="h-12" height="50" src="https://storage.googleapis.com/a1aa/image/OgDHfqO32ft0eI5dhGoII30aRIC8uP9LATvKSqyA6Iuf93WPB.jpg" width="50"/>
+      <img alt="Gucci Visions logo" class="h-12" height="50" src="https://storage.googleapis.com/a1aa/image/r08OXToo8PKlFhIx2ncHsnygffOYP6FJsNU6eFU5AiODf3WPB.jpg" width="50"/>
+      <img alt="Gucci Osteria logo" class="h-12" height="50" src="https://storage.googleapis.com/a1aa/image/A3jIkxBkyX7XBBs6xOa26fqLOHlX0576eTR2zCMm9fDFf3WPB.jpg" width="50"/>
+     </div>
+     <p class="text-xs mb-8">
+      © 2022 - 2024 Velora Velora S.p.A. - Todos los derechos reservados. V S.A. de C.V. - NIT: 0614–170266–001-3. LICENCIA SIAE N. 2294/I/1936 y 5647/I/1936
+     </p>
+     <h1 class="text-9xl velora_fin">
+      Velora
+     </h1>
+    </div>
+  </div> 
+ </body>
+</html>
